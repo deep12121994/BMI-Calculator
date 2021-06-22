@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  height: 80%;
+  width: 30%;
+  border: solid 5px whitesmoke;
+  border-radius: 10px;
+}
+
+h1{
+  color: deepskyblue;
+  margin: 6px;
+}
+
+.form-container{
+  margin: 16px auto;
+}
+
+.ipfield{
+  margin: 16px auto;
+}
+
+label{
+  font-size: larger;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+::placeholder{
+  font-size: medium;
+  padding: 4px;
+}
+
+input{
+  border: solid 3px whitesmoke;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 8px;
+  height: 50px;
+  width: 300px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+button{
+  height: 50px;
+  width: 150px;
+  margin-top: 16px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  color: black;
+}
+
+.result-btn{
+  background-color: yellowgreen;
+}
+
+.clear-btn{
+  background-color: firebrick;
+}
+
+.result-container{
+  margin-bottom: 8px;
+}
+
